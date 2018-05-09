@@ -1,0 +1,41 @@
+{
+  "name": "create-react-redux-component",
+  "version": "1.0.0",
+  "description": "An easy way to create a react-redux ready boilerplate component",
+  "scripts": {
+    "create-index-js": "bash create-index.js.sh",
+    "create-component-js": "bash create-component.js.sh",
+    "create-component-css": "bash create-component.css.sh",
+    "build": "bash build.sh"
+  },
+  "bin": {
+    "create-react-redux-component": "./build.sh"
+  },
+  "author": "Haldun Anil <info@haldunanil.com> (https://www.github.com/haldunanil)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haldunanil/create-react-redux-component.git"
+  },
+  "homepage": "https://github.com/haldunanil/create-react-redux-component",
+  "bugs": "https://github.com/haldunanil/create-react-redux-component/issues",
+  "tags": [
+    "react",
+    "reactjs",
+    "redux",
+    "react-redux",
+    "create",
+    "component",
+    "cli"
+  ],
+  "keywords": [
+    "react",
+    "reactjs",
+    "redux",
+    "react-redux",
+    "create",
+    "component",
+    "cli"
+  ],
+  "dependencies": {}
+}
