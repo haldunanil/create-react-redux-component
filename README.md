@@ -55,12 +55,36 @@ export default Test;
 ```javascript
 import React, { Component } from 'react';
 import './Test.css';
+// import { action } from './place';  // this is boilerplate for an action import; replace as needed
+import { connect } from 'react-redux';
 
-class Test extends Component {
+const mapStateToProps = state => {
+  return { ...state };
+};
+
+const mapDispatchToProps = dispatch => {
+  // the following is the boilerplate, replace 
+  // with real actions as needed; don't forget
+  // to import them!
+  /*
+  return {
+    action: element => dispatch(action(element))
+  }
+  */
+
+  return null; // delete this once the above is implemented
+};
+
+class ConnectedTest extends Component {
   render() {
     return <div>This is a component called Test.</div>;
   }
 }
+
+const Test = connect(
+  mapStateToProps, 
+  mapDispatchToProps
+)(ConnectedTest);
 
 export default Test;
 ```
