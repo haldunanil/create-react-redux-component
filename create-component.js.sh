@@ -17,7 +17,7 @@ const mapDispatchToProps = dispatch => {
   }
   */
 
-  return null; // delete this once the above is implemented
+  return {}; // delete this once the above is implemented
 };
 
 class Connected$1 extends Component {
